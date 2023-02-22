@@ -1,4 +1,4 @@
-# ECML Challenge Proposal Baselines
+# ECML/PKDD 2023 Challenge Proposal Baselines
 
 The folder `notebooks` contains Jupyter-Notebooks to run the baselines on the challenge data.
 
