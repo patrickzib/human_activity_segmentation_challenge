@@ -10,7 +10,7 @@ To run the baselines, you will have to install the following packages:
 
 # Data
 
-The challenge data are stored in the `data` folder. It does not contain any labels.
+The challenge data are stored in the `datasets` folder. It does not contain any labels.
 
 Segmentations on one dataset:
 ClaSP:
