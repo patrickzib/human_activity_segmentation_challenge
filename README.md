@@ -14,22 +14,16 @@ In order to run the baselines, you will have to install the packages from the `r
 
 We collected a data set of 250 annotated twelve-dimensional multivariate TS (a total of 10.7 hours), sampled at 50 Hertz (Hz). These TS contain between seven seconds and fourteen minutes (median 100 seconds) of human motion data, capturing one to fifteen potentially recurring activities from a total of one hundred different ones, each lasting from half a second (for waiting) to ten minutes (for running). The data in this repository does not contain any labels. You can explore the data with the provided `exploration.ipynb` notebook.
 
-## Subject 1
+## Examples
 
-![image](https://user-images.githubusercontent.com/7783034/220664633-8951e00b-e758-47cd-996d-851e49e0e93d.png)
+The following two images show examples of the first two time series in the data set.
 
-## Subject 2
+![image](figures/TS0.png)
 
-![image](https://user-images.githubusercontent.com/7783034/220664671-66604fab-542b-4bae-8218-453cfe5a5a36.png)
+![image](figures/TS1.png)
 
+If we run the ClaSP, FLUSS and BinSeg baselines on the y-axis acceleration channel of TS0, we get the following segmentation.
 
-# Segmentations on one dataset:
-
-## ClaSP:
-![image](https://user-images.githubusercontent.com/7783034/220598152-54fb313d-e8a6-4a64-b018-0c5c53b9d7d0.png)
-
-## Floss:
-![image](https://user-images.githubusercontent.com/7783034/220658925-f79e5871-c53e-44bd-9480-bc0292d3563c.png)
-
-## Ruptures:
-![image](https://user-images.githubusercontent.com/7783034/220598321-9a166acf-3313-4959-a5db-f77c84583d2e.png)
+![image](figures/clasp_TS0.png)
+![image](figures/fluss_TS0.png)
+![image](figures/binseg_TS0.png)
