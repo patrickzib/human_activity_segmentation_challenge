@@ -1,18 +1,18 @@
-# ECML/PKDD 2023 Challenge Proposal Baselines
+# ECML/PKDD 2023 Human Activity Segmentation Challenge Proposal Baselines
 
-The folder `notebooks` contains Jupyter-Notebooks to run the baselines on the challenge data.
+Time series segmentation (TSS) is a far too under-studied research field that plays a crucial role in many real-world data analysis workflows for energy consumption, climate change, or human activity recognition (HAR). In a collaborative effort with 16 bachelor computer science students, we collected and annotated real-world human motion sensor data. We propose a TSS competition to partition the resulting 250 multi-variate TS into an a priori unknown amount of variable-sized activities. This could greatly increase the accuracy of HAR systems and would promote benchmarking in TSS.
 
-# Prerequisite
+This repository contains supporting materials, including data, Python loaders and baselines for the challenge. The folder `notebooks` contains Jupyter-Notebooks to run the baselines on the challenge data. The challenge data set is stored in the `datasets` folder.
 
-To run the baselines, you will have to install the following packages:
+# Prerequisites
 
-`pip install stumpy ruptures clasp_segmentation`
+In order to run the baselines, you will have to install the packages from the `requirements.txt` file.
 
-# Data
+`pip install -r requirements.txt`
 
-The challenge data are stored in the `datasets` folder. There are a total of 250 preprocessed and annotated multivariate TS, capturing a total of 10.7 hours over 100 activities. The data in this repository does not contain any labels.
+# Human Activity Data
 
-You can explore the data with the provided `exploration.ipynb` notebook.
+We collected a data set of 250 annotated twelve-dimensional multivariate TS (a total of 10.7 hours), sampled at 50 Hertz (Hz). These TS contain between seven seconds and fourteen minutes (median 100 seconds) of human motion data, capturing one to fifteen potentially recurring activities from a total of one hundred different ones, each lasting from half a second (for waiting) to ten minutes (for running). The data in this repository does not contain any labels. You can explore the data with the provided `exploration.ipynb` notebook.
 
 ## Subject 1
 
