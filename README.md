@@ -21,6 +21,10 @@ In order to run the baselines, you have to install the packages from `requiremen
 
 `pip install -r requirements.txt`
 
+You will need to install the following packages with segmentation algorithms to run all baselines:
+
+`sktime`, `claspy`, `stumpy`, `ruptures`
+
 # Human Activity Data
 
 We collected a data set of 250 annotated twelve-dimensional multivariate TS, for a total
@@ -38,6 +42,19 @@ The following two images show examples of the first two time series in the data 
 ![image](figures/TS0.png)
 
 ![image](figures/TS1.png)
+
+## Baselines
+
+We provide code for six baseline codes in the `notebooks folder:
+
+- Binary-Segmentation from ruptures
+- ClaSP from claspy / sktime
+- FLUSS from stumpy
+- GreedyGaussianSegmentation (GGS) from sktime
+- InformationGainSegmentation (IGTS) from sktime
+- STRAY from sktime
+
+## Segmentations
 
 If we run ClaSP, FLUSS and BinSeg baselines on the y-axis acceleration channel of
 TS0, we get the following segmentation.
