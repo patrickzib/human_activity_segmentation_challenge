@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 
 
-def load_data(data_path="../datasets/has_challenge_no_labels.csv.zip"):
+def load_data(data_path="../datasets/has2023.csv.zip"):
     """
     Load the given CSV file containing the sensor data for the challenge.
     Returns a pandas DataFrame where each column is a sensor measurement and
@@ -49,7 +49,7 @@ def to_submission(df, change_points):
     Returns
     -------
     pandas.DataFrame
-        DataFrame with two columns: 'Id' and 'Offsets'. The 'Id' column should contain
+        DataFrame with two columns: 'ts_id' and 'segment'. The 'Id' column should contain
         the row indices of the original DataFrame, and the 'Offsets' column contain
         CPs and segment lengths as a string in the format
         '<change point> <segment length>'.
@@ -66,4 +66,4 @@ def to_submission(df, change_points):
 
             prediction.append((ID, f"{int(cp)} {int(seg_len)}"))
 
-    return pd.DataFrame.from_records(prediction, columns=["Id", "Offsets"])
+    return pd.DataFrame.from_records(prediction, columns=["ts_id", "segment"])
