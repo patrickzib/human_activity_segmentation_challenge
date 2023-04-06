@@ -23,7 +23,7 @@ In order to run the baselines, you have to install the packages from `requiremen
 
 You will need to install the following packages with segmentation algorithms to run all baselines:
 
-`sktime`, `claspy`, `stumpy`, `ruptures`
+`aeon==0.1.0rc0`, `claspy`, `ruptures`, `stumpy`
 
 # Human Activity Data
 
@@ -48,11 +48,11 @@ The following two images show examples of the first two time series in the data 
 We provide code for six baseline codes in the `notebooks folder:
 
 - Binary-Segmentation from ruptures
-- ClaSP from claspy / sktime
+- ClaSP from claspy
 - FLUSS from stumpy
-- GreedyGaussianSegmentation (GGS) from sktime
-- InformationGainSegmentation (IGTS) from sktime
-- STRAY from sktime
+- GreedyGaussianSegmentation (GGS) from aeon
+- InformationGainSegmentation (IGTS) from aeon
+- STRAY from aeon
 
 ## Segmentations
 
@@ -62,3 +62,16 @@ TS0, we get the following segmentation.
 ![image](figures/clasp_TS0.png)
 ![image](figures/fluss_TS0.png)
 ![image](figures/binseg_TS0.png)
+
+## Citation
+
+If you use the challenge data in your publication, please cite as:
+```
+@misc{segmentation_challenge,
+	author = {Ermshaus, Arik, and Sch{\"a}fer, Patrick, and Leser, Ulf and  Bagnall, Anthony and Tavenard, Romain and Leverger, Colin and Lemaire, Vincent and Malinowski, Simon and Guyet, Thomas and Ifrim, Georgiana},
+	howpublished = {ECML/PKDD 2023 Discovery Challenge},
+	title = {Human Activity Segmentation Challenge},
+	month = {April},
+	year = {2023}
+}
+```

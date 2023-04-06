@@ -1,6 +1,6 @@
 numpy
 pandas
-sktime
+aeon==0.1.0rc0
 claspy
 stumpy
 ruptures
