@@ -15,6 +15,12 @@ loaders and baselines for the challenge. The folder `notebooks` contains
 Jupyter notebooks to run the baselines on the challenge data. The challenge data set is
 stored in the `datasets` folder.
 
+## Organization and Registration
+
+This competition is hosted by the <a href="https://2023.ecmlpkdd.org/submissions/discovery-challenge/challenges/" target="_blank">ECML/PKDD 2023 conference</a> as a *Discovery Challenge*. It is organized using the Kaggle platform starting 11th April and ending 11th June. The results and top three winning solutions will be presented at the AALTD workshop in September, 2023. 
+
+**Please fill out this <a href="https://docs.google.com/forms/d/1BoAJWlhCVU0LUeDLzb7GOBM4MTk2AKkfpY--hk987-0" target="_blank">google form</a> to register for the challenge. Upon registration, we will send you the invitation link to the Kaggle competition website via mail. Participants are strictly prohibited from registering multiple times to gain an unfair advantage. No pseudonyms may be used for registration.**
+
 # Prerequisites
 
 In order to run the baselines, you have to install the packages from `requirements.txt`.
