@@ -1,4 +1,4 @@
-# ECML/PKDD 2023 Human Activity Segmentation Challenge Proposal Baselines
+# ECML/PKDD 2023 Human Activity Segmentation Challenge
 
 Time series segmentation (TSS) is a far too under-studied research field that plays a
 crucial role in many real-world data analysis workflows for energy consumption, climate
