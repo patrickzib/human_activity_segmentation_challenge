@@ -81,3 +81,8 @@ If you use the challenge data in your publication, please us cite as:
 	year = {2023}
 }
 ```
+
+## Powered By
+
+1. [tslearn](https://tslearn.readthedocs.io/)
+2. [aeon](https://www.aeon-toolkit.org/)
