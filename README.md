@@ -71,7 +71,7 @@ TS0, we get the following segmentation.
 
 ## Citation
 
-If you use the challenge data in your publication, please us cite as:
+If you use the challenge data in your publication, please cite us as:
 ```
 @misc{segmentation_challenge,
 	author = {Ermshaus, Arik, and Sch{\"a}fer, Patrick, and Leser, Ulf and  Bagnall, Anthony and Tavenard, Romain and Leverger, Colin and Lemaire, Vincent and Malinowski, Simon and Guyet, Thomas and Ifrim, Georgiana},
