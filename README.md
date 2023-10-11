@@ -1,10 +1,10 @@
-# ECML/PKDD 2023 Human Activity Segmentation Challenge
+# Human Activity Segmentation Challenge @ ECML/PKDD'23
 
 Time series segmentation (TSS) is a far too under-studied research field that plays a
 crucial role in many real-world data analysis workflows for energy consumption, climate
 change, or human activity recognition (HAR).
 
-In a collaborative effort with 16 computer
+In a collaborative effort with 15 computer
 science students, we collected and annotated real-world human motion sensor data. We
 propose a TSS competition to partition the resulting 250 multi-variate TS into an a
 priori unknown amount of variable-sized activities. This could greatly increase the
@@ -12,14 +12,16 @@ accuracy of HAR systems and would promote benchmarking in TSS.
 
 This repository contains supporting materials, including the data set, Python data
 loaders and baselines for the challenge. The folder `notebooks` contains
-Jupyter notebooks to run the baselines on the challenge data. The challenge data set is
-stored in the `datasets` folder.
+Jupyter notebooks to run the baselines on the challenge data. The labelled challenge data set is
+now available and stored in the `datasets` folder. This <a href="https://github.com/patrickzib/human_activity_segmentation_challenge/blob/main/notebooks/data_exploration.ipynb">notebook</a> explores the data.
 
 ## Organization and Registration
 
-This competition is hosted by the <a href="https://2023.ecmlpkdd.org/submissions/discovery-challenge/challenges/" target="_blank">ECML/PKDD 2023 conference</a> as a *Discovery Challenge*. It is organized using the Kaggle platform starting 11th April and ending 11th June. The results and top three winning solutions will be presented at the AALTD workshop in September, 2023. 
+This competition was hosted by the <a href="https://2023.ecmlpkdd.org/submissions/discovery-challenge/challenges/" target="_blank">ECML/PKDD 2023 conference</a> as a *Discovery Challenge*. It was organized using the Kaggle platform starting 11th April and ending 11th June. The results and top-2 winning solutions were presented at the AALTD workshop in September, 2023. This challenge has ended. We provide a summary of its organization and results in this <a href="https://ecml-aaltd.github.io/aaltd2023/papers/has_challenge_ecml.pdf">paper</a>. 
 
+<!--
 **Please fill out this <a href="https://docs.google.com/forms/d/1BoAJWlhCVU0LUeDLzb7GOBM4MTk2AKkfpY--hk987-0" target="_blank">google form</a> to register for the challenge. Upon registration, we will send you the invitation link to the Kaggle competition website via mail. Participants are strictly prohibited from registering multiple times to gain an unfair advantage. No pseudonyms may be used for registration.**
+-->
 
 # Prerequisites
 
@@ -43,7 +45,7 @@ provided `exploration.ipynb` notebook.
 
 ## Examples
 
-The following two images show examples of the first two time series in the data set.
+The following two images show examples of the first two time series in the challenge data set.
 
 ![image](figures/TS0.png)
 
@@ -86,3 +88,5 @@ If you use the challenge data in your publication, please cite us as:
 
 1. [tslearn](https://tslearn.readthedocs.io/)
 2. [aeon](https://www.aeon-toolkit.org/)
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
