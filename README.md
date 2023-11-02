@@ -53,7 +53,7 @@ The following two images show examples of the first two time series in the chall
 
 ## Baselines
 
-We provide code for six baseline codes in the `notebooks folder:
+We provide code for six baseline codes in the `notebooks` folder:
 
 - Binary-Segmentation from ruptures
 - ClaSP from claspy
@@ -75,11 +75,10 @@ TS0, we get the following segmentation.
 
 If you use the challenge data in your publication, please cite us as:
 ```
-@misc{segmentation_challenge,
-	author = {Ermshaus, Arik, and Sch{\"a}fer, Patrick, and Leser, Ulf and  Bagnall, Anthony and Tavenard, Romain and Leverger, Colin and Lemaire, Vincent and Malinowski, Simon and Guyet, Thomas and Ifrim, Georgiana},
-	howpublished = {ECML/PKDD 2023 Discovery Challenge},
-	title = {Human Activity Segmentation Challenge},
-	month = {April},
+@inproceedings{segmentation_challenge,
+	title={Human Activity Segmentation Challenge @ ECML/PKDD’23},
+	author={Arik Ermshaus and Patrick Sch{\"a}fer and Anthony Bagnall and Thomas Guyet and Georgiana Ifrim and Vincent Lemaire and Ulf Leser and Colin Leverger and Simon Malinowski},
+	booktitle={8th Workshop on Advanced Analytics and Learning on Temporal Data},
 	year = {2023}
 }
 ```
